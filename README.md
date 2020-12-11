@@ -2,6 +2,8 @@
 
 Registration and authorization form, you can register and log in, the forms are validated. The database has one user login: 'admin@mail.ru', password: '123456'. Layout in a jpg file.
 
+To log in, you must enter the code that will be displayed on the screen (emulation of an SMS message).
+
 Database emulation - localStorage.
 
 Steck: React, Redux, Redux-thank, Scss.
