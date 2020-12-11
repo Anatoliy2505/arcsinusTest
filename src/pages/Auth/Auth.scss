@@ -1,0 +1,46 @@
+@import '../../styles/vars';
+
+.auth {
+  &-form {
+    width: 100%;
+    max-width: 370px;
+    &__title {
+      line-height: 1em;
+      font-size: 1.3em;
+      margin: 0;
+      padding-bottom: 2.5rem;
+    }
+    &__wrap-button {
+      padding-top: 1rem;
+      .auth-btn {
+        width: 100%;
+      }
+      &_flex {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        align-items: center;
+        &.btn {
+          margin-bottom: 1rem;
+        }
+      }
+    }
+    &__wrap-redirect {
+      padding-top: 4rem;
+      display: flex;
+      flex-flow: column;
+    }
+    &__redirect-link {
+      color: #1968a8 !important;
+      line-height: 1em;
+      text-decoration: none;
+      font-size: 0.9em;
+      &:not(:last-of-type) {
+        margin-bottom: 2rem;
+      }
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.btn {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75em;
+  font-weight: 600;
+  box-sizing: border-box;
+  padding: 1.2rem 2.5rem;
+  background: linear-gradient(to right, #ce7eff 55%, #b165fd);
+  border-radius: 1.5rem;
+  border: none;
+  color: #ffff;
+  cursor: pointer;
+  letter-spacing: 0.15em;
+  line-height: 1em;
+  max-width: 100%;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  outline: none;
+  overflow: hidden;
+  white-space: nowrap;
+  &.active {
+    box-shadow: none;
+    background: linear-gradient(to right, #bf58ff 55%, #9b3afc);
+  }
+  &:hover {
+    box-shadow: 0px 0px 3px 0px #161616;
+  }
+  &:active {
+    box-shadow: 0px 0px 3px 0px #161616, inset 0 0 2px #000;
+  }
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    box-shadow: none;
+  }
+}

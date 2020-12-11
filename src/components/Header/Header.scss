@@ -1,0 +1,11 @@
+.header {
+  width: 100%;
+  &-title {
+    margin: 0;
+    padding: 3rem 0 6rem 0;
+    font-size: 3em;
+    &__decorator {
+      font-weight: 200;
+    }
+  }
+}

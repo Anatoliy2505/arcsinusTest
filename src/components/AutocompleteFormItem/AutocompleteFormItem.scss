@@ -1,0 +1,31 @@
+@import '../../styles/vars';
+
+.autocomplete {
+  position: relative;
+  &-hints {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    box-sizing: border-box;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 100%);
+    width: calc(100% - 2px);
+    background-color: #fff;
+    box-shadow: 0 0 2px 0 $gray;
+    border: 1 px solid $gray;
+    border-radius: 0 0 4px 4px;
+    z-index: 1;
+    max-height: 10rem;
+    &__item {
+      padding: 0.35rem 1rem;
+      color: $gray;
+      cursor: pointer;
+      &:hover {
+        background-color: #eef;
+        color: #000;
+      }
+    }
+  }
+}

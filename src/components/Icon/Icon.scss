@@ -1,0 +1,10 @@
+.icon {
+  display: inline-block;
+  .func {
+    cursor: pointer;
+  }
+  .disabled {
+    cursor: not-allowed;
+  }
+
+}
