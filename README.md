@@ -1,5 +1,11 @@
 # Getting Started with Create React App
 
+Registration and authorization form, you can register and log in, the forms are validated. The database has one user login: 'admin@mail.ru', password: '123456'. Layout in a jpg file.
+
+Database emulation - localStorage.
+
+Steck: React, Redux, Redux-thank, Scss.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
